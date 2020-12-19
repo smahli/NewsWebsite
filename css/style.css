@@ -57,9 +57,32 @@ h1,h2,h3,h4,h5,h6{
 	margin-bottom: 0.5rem
 
 }
-.category-sports{
+.category-sports{background:var(--sports-color);}
+.category-ent{background:var(--ent-color);}
+.category-tech{background:var(--tech-color);}
+
+.btn{
+	display: inline-block;
+	border: none;
+	background: var(--dark-color);
+	color: #fff;
+	padding: 0.5rem 1.5rem;
+
 
 }
+.btn-light{ background: var(--light-color);}
+.btn-primary{ background: var(--primary-color);}
+.btn-secondary{ background: var(--secondary-color);}
+
+.btn:hover{
+	opacity: 0.8;
+}
+.btn-block{
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
 /* Navigation*/
 #main-nav{
 	background: #fff;
@@ -133,4 +156,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #showcase .showcase-content{
 	z-index: 1;
+}
+#showcase .showcase-content p{
+	margin-bottom: 1rem;
 }
